@@ -134,21 +134,47 @@ Open the `client` folder using **Live Server** in Visual Studio Code.
 
 ## 📷 Application Screenshots
 
-| Home | Products |
-|------|----------|
-| ![](screenshots/home.png) | ![](screenshots/products.png) |
+### 🏠 Home Page
 
-| Cart | Checkout |
-|------|----------|
-| ![](screenshots/cart.png) | ![](screenshots/checkout.png) |
+![Home Page](screenshots/home.png)
 
-| Orders | Login |
-|--------|-------|
-| ![](screenshots/orders.png) | ![](screenshots/login.png) |
+---
 
-| Register |
-|-----------|
-| ![](screenshots/register.png) |
+### 📦 Products Page
+
+![Products Page](screenshots/products.png)
+
+---
+
+### 🛒 Shopping Cart
+
+![Shopping Cart](screenshots/cart.png)
+
+---
+
+### 💳 Checkout Page
+
+![Checkout](screenshots/checkout.png)
+
+---
+
+### 📋 My Orders
+
+![Orders](screenshots/orders.png)
+
+---
+
+### 🔐 Login Page
+
+![Login](screenshots/login.png)
+
+---
+
+### 📝 Register Page
+
+![Register](screenshots/register.png)
+
+---
 
 ## 🚀 Future Enhancements
 
