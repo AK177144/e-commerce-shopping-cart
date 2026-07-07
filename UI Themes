@@ -8,3 +8,12 @@ Fonts: Poppins
 Rounded Corners: 12px
 Buttons: Blue Filled
 Cards: Soft Shadow
+
+Primary Blue     #2563EB
+Secondary Amber  #F59E0B
+Success Green    #22C55E
+Danger Red       #EF4444
+Background       #F8FAFC
+Card             #FFFFFF
+Text             #1F2937
+Border           #E5E7EB
