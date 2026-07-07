@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Swift Cart | Home</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/home.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,6 +28,52 @@
   </head>
   <body>
     <div id="navbar"></div>
+    <header>
+      <nav class="navbar">
+        <div class="container nav-container">
+          <h2>🛒 Swift Cart</h2>
+
+          <ul>
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="products.html">Products</a></li>
+
+            <li><a href="cart.html">Cart</a></li>
+
+            <li><a href="orders.html">Orders</a></li>
+
+            <li><a href="#" id="logoutBtn">Logout</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <h1>Shop Smart. Shop Swift.</h1>
+
+        <p>Discover premium products at unbeatable prices.</p>
+        <button class="btn" onclick="window.location.href = 'products.html'">
+          Shop Now
+        </button>
+
+        <input type="text" id="searchInput" placeholder="Search products..." />
+      </div>
+    </section>
+
+    <section class="products container">
+      <h2>Featured Products</h2>
+
+      <div id="productContainer" class="product-grid"></div>
+    </section>
+
+    <footer>
+      <p>© 2026 Swift Cart</p>
+    </footer>
+
+    <script src="js/api.js"></script>
+
+    <script src="js/home.js"></script>
 
     <div id="footer"></div>
 

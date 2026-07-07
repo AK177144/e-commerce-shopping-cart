@@ -12,6 +12,8 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/auth.css" />
 
     <link
       rel="stylesheet"
@@ -23,12 +25,39 @@
   </head>
   <body>
     <div id="navbar"></div>
+    <div class="auth-container">
+      <div class="auth-card">
+        <h2>Checkout</h2>
 
+        <form id="checkoutForm">
+          <input id="fullName" placeholder="Full Name" required />
 
+          <input id="phone" placeholder="Phone Number" required />
 
+          <input id="address" placeholder="Address" required />
 
+          <input id="city" placeholder="City" required />
 
-    
+          <input id="state" placeholder="State" required />
+
+          <input id="postalCode" placeholder="Postal Code" required />
+
+          <select id="paymentMethod">
+            <option>Cash on Delivery</option>
+
+            <option>UPI</option>
+
+            <option>Card</option>
+          </select>
+
+          <button class="btn" type="submit">Place Order</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/checkout.js"></script>
+
     <div id="footer"></div>
 
     <script src="js/navbar.js"></script>

@@ -20,9 +20,35 @@
     <link rel="stylesheet" href="css/navbar.css" />
 
     <link rel="stylesheet" href="css/footer.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/home.css" />
   </head>
   <body>
     <div id="navbar"></div>
+
+    <header>
+      <nav class="navbar">
+        <div class="container nav-container">
+          <h2>🛒 Swift Cart</h2>
+
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="orders.html">Orders</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <h1 style="margin: 30px 0">My Orders</h1>
+
+      <div id="ordersContainer"></div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/orders.js"></script>
 
     <div id="footer"></div>
 
